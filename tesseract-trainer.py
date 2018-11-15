@@ -7,7 +7,7 @@ import os
 from sys import argv
 fontname = 'icr'
 language = 'eng'
-directory = "./"
+directory = "/root/train-images/"
 
 print 'Tesseract Font Builder - assumes training TIFFs and boxfiles already created'
 print 'Note: Only up to 32 .tiff files are supported for training purposes'

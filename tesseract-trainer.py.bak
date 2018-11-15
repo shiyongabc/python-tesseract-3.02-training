@@ -70,6 +70,6 @@ os.system('mv inttemp '+fontname+'.inttemp')
 command5 = 'combine_tessdata '+fontname+'.'
 os.system(command5)
 
-#Copy it over
-command6 = 'cp -f '+fontname+'.* /usr/local/share/tessdata'
+#Copy it over  /usr/share/tesseract/4/tessdata
+command6 = 'cp -f '+fontname+'.* /usr/share/tesseract/4/tessdata'
 os.system(command6)
